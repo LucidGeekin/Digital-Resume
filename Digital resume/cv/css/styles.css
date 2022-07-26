@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
-/* VARIABLES */
+
 :root {
     --base: #f8f9fa;
     --primary: #343a40;
@@ -8,7 +8,7 @@
     --tertiary: #000000;
 }
 
-/* GENERAL SETTINGS */
+
 * {
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@ body {
     padding: 1.5rem;
 }
 
-/* LEFT SIDE ITEMS */
+
 .profile {
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@ body {
     background: var(--secondary);
 }
 
-/* RIGHT SIDE ITEMS */
+
 .right_items {
     margin-bottom: 2rem;
     font-weight: 600;
