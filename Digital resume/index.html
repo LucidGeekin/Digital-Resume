@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ntsika Ngilane</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div id="loader">
+        <div id="wrapperload">
+            <div class="elem">
+                <h1 class="name"><strong>Ntsika Ngilane</strong></h1>
+            </div>
+            <div class="elem">
+                <h3>FULL-STACK DEVELOPER</h3>
+            </div>
+            <div class="elem">
+                <h3>AlWAYS READY FOR A CHALLENGE.</h3>
+            </div>
+            <div class="elem">
+                <h1 class="name"><strong><bold>Adventurous</bold></strong></h1><space>
+    <p><strong><i><b>Always ready for something new.</b></i></strong></p>
+</space>
+            </div>
+        </div>
+    </div>
+
+    <div id="bg">
+        <nav>
+            <img class="navitem" src="./imgs/logo.png" alt="">
+            <div id="links">
+                <a class="navitem" href="index.html">Home</a>
+                <a class="navitem" href="./contact/contact.html">Contact</a>
+                <a class="navitem" href="./cv/resume.html">Résumé</a>
+                <a class="navitem" href="./portfolio/portfolio.html">Portfolio</a>
+               
+            </div>
+        </nav>
+        <div id="sections">
+            <div id="left">
+                <div id="smline"></div>
+                <h4 class="leftitem">Hello, I am 👋</h4>
+                <h1 class="Inspire"><strong>Ntsika</strong></h1>
+                <h5 class="leftitem">An aspiring full-stack developer and 3d AnimatorS <span id="lblue">South Africa.</span></h5>
+                
+                    
+              
+                <div class="leftitem" id="contact">
+                    <h3>Contact me</h3>
+                    <h6>Email : <span>ntsikangilane@gmail.com</span></h6>
+                    <h6>Contact Number: <span>+27664046797</span></h6>
+                </div>
+            </div>
+            <div id="right">
+                <h8 id="quote">“Indeed, the ratio of time spent reading versus writing is well over 10 to 1.<br /> We are constantly reading old code as part of the effort to write new code. <br />...[Therefore,] making it easy to read makes it easier to write.”</h8>
+                    <h7 id="reference"><i> Robert C. Martin</i></h7>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+        var menu = document.querySelector('#menu');
+        var bg = document.querySelector('#bg');
+
+        menu.addEventListener('click', function(){
+            bg.style.transform = 'scale(.8)';
+            bg.style.borderRadius = '10px';
+            bg.style.boxShadow = '0 150px 45px -100px rgba(0,0,0,0.2)';
+        })
+    </script>
+</body>
+</html>
